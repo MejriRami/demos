@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo videos</title>
+<style>
+  :root { --bg:#f4f5fa; --card:#fff; --ink:#1b2333; --muted:#5b6578; --line:#e3e7ef; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#10141c; --card:#171d28; --ink:#e8ecf3; --muted:#9aa4b5; --line:#263041; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  main { max-width:1040px; margin:0 auto; padding:32px 16px 56px; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  .lead { color:var(--muted); margin:0 0 28px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px; margin-bottom:22px; }
+  h2 { font-size:19px; margin:0 0 2px; }
+  .meta { color:var(--muted); font-size:14px; margin:0 0 12px; }
+  video { width:100%; border-radius:8px; background:#000; display:block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Demo videos</h1>
+  <p class="lead">Narrated walkthroughs of two business platforms and three AI projects (English, 1080p).</p>
+
+  <section id="hr">
+    <h2>HR platform</h2>
+    <p class="meta">3:37 · employees, requests, attendance, payroll, reporting, and an AI assistant built in</p>
+    <video controls preload="metadata" src="Plateforme_RH_v2.mp4"></video>
+  </section>
+
+  <section id="audit">
+    <h2>Quality audit platform</h2>
+    <p class="meta">6:06 · audit planning and execution, corrective actions, automatic monthly planning, AI assistant and coach</p>
+    <video controls preload="metadata" src="Plateforme_Audit_v2.mp4"></video>
+  </section>
+
+  <section id="coach">
+    <h2>Coach Conseiller</h2>
+    <p class="meta">2:09 · voice client simulator and cited document assistant for insurance advisors</p>
+    <video controls preload="metadata" src="1_Coach_Conseiller_v2.mp4"></video>
+  </section>
+
+  <section id="pfmea">
+    <h2>PFMEA multi-agent system</h2>
+    <p class="meta">1:54 · consolidation of process FMEAs and generation from validated content</p>
+    <video controls preload="metadata" src="2_Agent_PFMEA_v2.mp4"></video>
+  </section>
+
+  <section id="mcp">
+    <h2>MCP server</h2>
+    <p class="meta">2:07 · one governed access point for AI assistants, with server-side guardrails</p>
+    <video controls preload="metadata" src="3_Serveur_MCP_v2.mp4"></video>
+  </section>
+</main>
+</body>
+</html>
